@@ -1,4 +1,4 @@
-#-----------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------
 # Course Project
 # Getting and Cleaning Data
 # Brian D. Priddy
@@ -8,7 +8,8 @@
 #   1). Merges training and test sets collected by Jorge L. Reyes-Ortiz, Davide Anguita, 
 #       Alessandro Ghio, and Luca Oneto from Samsung smartphone accelerometers at the 
 #       Non Linear Complex Systems Laboratory, Universita degli Studi di Genova, Italy
-#   2). Extracts only the measurements on the mean and standard deviation for each measurement
+#   2). Extracts only the measurements on the mean and standard deviation for each 
+#       measurement
 #   3). Uses descriptive activity names to name the activities in the data set
 #   4). Appropriately labels the data set with descriptive variable names
 #   5). Creates a second, independent tidy data set with the average of each variable 
@@ -19,7 +20,7 @@
 #
 # The raw dataset can be downloaded via the following URL:
 # https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-#-----------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------
 
 # Set local working directory and local path to dataset files
 # (These values are user dependent)

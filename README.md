@@ -8,7 +8,7 @@ Repo created for Coursera's Getting and Cleaning Data course, June 2014
 
 ####June 22, 2014
  
-Per the project requirements, the R script run_analysis.R does the following:
+Per the project requirements, the R script *run_analysis.R* does the following:
  1. Merges training and test sets collected by Jorge L. Reyes-Ortiz, Davide Anguita, 
     Alessandro Ghio, and Luca Oneto from Samsung smartphone accelerometers at the 
     Non Linear Complex Systems Laboratory, Universita degli Studi di Genova, Italy
@@ -25,7 +25,7 @@ Information on the original, raw dataset is available at the following URL:
 The raw dataset can be downloaded via the following URL:
  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
  
-The R script run_analysis.R assumes that the raw dataset archive (.zip file) has been extracted to the folder:
+The R script *run_analysis.R* assumes that the raw dataset archive (.zip file) has been extracted to the folder:
  (R working directory)/data/UCI HAR Dataset/
   
 The following packages need to be installed on the client: 

@@ -1,13 +1,13 @@
-GettingAndCleaningData
-======================
+##GettingAndCleaningData
+
 Repo created for Coursera's Getting and Cleaning Data course, June 2014
 
-Course Project: Getting and Cleaning Data
------------------------------------------
-Brian D. Priddy
----------------
-June 22, 2014
-------------- 
+###Course Project: Getting and Cleaning Data
+
+####Brian D. Priddy
+
+####June 22, 2014
+ 
 Per the project requirements, the R script run_analysis.R does the following:
  1. Merges training and test sets collected by Jorge L. Reyes-Ortiz, Davide Anguita, 
     Alessandro Ghio, and Luca Oneto from Samsung smartphone accelerometers at the 

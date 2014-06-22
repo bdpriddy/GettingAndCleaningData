@@ -53,8 +53,8 @@ pertinentColumns$V2 <- gsub("-std()", "StdDev", pertinentColumns$V2, fixed=TRUE)
 
 # Tidy-up the activity descriptions and apply to dataset
 ActivityDescriptions <- capitalize(tolower(dfActivities$V2))
-ActivityDescriptions <- sub("_d", " D", ActivityDescriptions)
-ActivityDescriptions <- sub("_u", " U", ActivityDescriptions)
+ActivityDescriptions <- sub("_d", "D", ActivityDescriptions)
+ActivityDescriptions <- sub("_u", "U", ActivityDescriptions)
 vecActivities <- ActivityDescriptions[dfYData[,1]]
 dfYData [,1] <- vecActivities
 

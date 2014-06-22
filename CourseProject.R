@@ -38,7 +38,7 @@ dfFeatures <- read.table(paste0(datapath, "features.txt"))
 dfActivities <- read.table(paste0(datapath, "activity_labels.txt"))
 
 # Extract only the mean and standard deviation data using Structured Query Language (SQL)
-pertinentColumns <- sqldf("select * from dfFeatures WHERE V2 like '%std()%' or V2 like '%mean()%'")
+pertinentColumns <- sqldf("SELECT * FROM dfFeatures WHERE V2 LIKE '%std()%' or V2 LIKE '%mean()%'")
 dfXDataStdMean <- dfXData[,pertinentColumns$V1]
 
 # Tidy-up column names for the mean and standard deviation dataset

@@ -29,6 +29,6 @@ This R script assumes that the raw dataset archive (.zip file) has been extracte
  (R working directory)/data/UCI HAR Dataset/
   
 The following packages need to be installed on the client: 
-1. sqldf (Performs SQL Selects on R Data Frames) 
-2. Hmisc (Harrell Miscellaneous)
+ 1. sqldf (Performs SQL Selects on R Data Frames) 
+ 2. Hmisc (Harrell Miscellaneous)
 
